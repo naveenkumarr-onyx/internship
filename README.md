@@ -28,7 +28,7 @@ The HTML <form> element can contain one or more of the following form elements:
 
 <!-- <input> -->
 
-The <input> Element:
+#The <input> Element:
 -->An <input> element can be displayed in many ways, depending on the type attribute.
 -->Here are some examples:
 Type Description:

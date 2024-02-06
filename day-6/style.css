@@ -1,19 +1,18 @@
 * {
   margin: 0px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 a {
   text-decoration: none;
 }
+
 button {
   color: white;
   border-radius: 5px;
   padding: 5px;
   border: 1px solid rgb(219, 219, 219);
   padding: 15px;
-}
-img {
-  width: 22px;
-  height: 20px;
 }
 input {
   padding: 15px;
@@ -22,7 +21,7 @@ input {
 }
 .container {
   width: 100%;
-  background-color: blue;
+  /* background-color: blue; */
   height: 100vh;
 }
 .container1 {
@@ -30,14 +29,13 @@ input {
 }
 .container2 {
   width: 300px;
-  height: 440px;
   background-color: white;
   display: flex;
   flex-direction: column;
   gap: 20px;
   padding: 30px;
   border-radius: 5px;
-  /* padding-top: 10px; */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.4);
 }
 .head h1 {
   font-size: bolder;
@@ -68,6 +66,8 @@ input {
   display: flex;
   gap: 10px;
   color: blue;
+}
+.btn-login p span:hover {
   text-decoration: underline;
 }
 .btn-login button {
@@ -78,10 +78,19 @@ input {
   flex-direction: column;
   gap: 10px;
 }
-/* .btn-login2 .para_hr {
+.line_ctn {
   display: flex;
-  flex-direction: column;
-} */
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+.line_ctn .line {
+  display: flex;
+  flex: 1;
+  align-items: center;
+  height: 1px;
+  background-color: #dfdfdf;
+}
 .btn-login2 p {
   display: flex;
   justify-content: center;
@@ -94,7 +103,7 @@ input {
 .btn-login2 .btn1 {
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   gap: 5px;
   background-color: hsl(219.82, 46.5%, 47.65%);
 }
@@ -103,6 +112,19 @@ input {
   display: flex;
   color: rgb(219, 219, 219);
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   gap: 5px;
 }
+/* .universe button {
+  margin-top: 10px;
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: hsl(0, 0%, 16.86%);
+  border: 3px solid hsl(173.4, 95.98%, 60.98%);
+  color: hsl(173.4, 95.98%, 60.98%);
+}
+button:hover {
+  box-shadow: 0 5px 50px 0px hsl(173.4, 95.98%, 60.98%),
+    0 5px 50px 0px hsl(173.4, 95.98%, 60.98%);
+} */

@@ -1,0 +1,35 @@
+body {
+  /* position: relative; */
+  /* background-color: aqua;
+  position: relative; */
+}
+.container {
+  border: 10px solid cornflowerblue;
+  height: 2000px;
+}
+.static {
+  border: 1px solid red;
+  position: fixed;
+  bottom: 20px;
+}
+.relative {
+  position: relative;
+  border: 2px solid green;
+  bottom: 40px;
+  left: 116px;
+}
+.absolute {
+  position: absolute;
+  top: 10px;
+}
+.sticky {
+  position: sticky;
+  top: 0px;
+  background-color: blueviolet;
+}
+body {
+  background-image: url("https://images.pexels.com/photos/19797253/pexels-photo-19797253/free-photo-of-red-berries-on-a-branch-with-a-drop-of-water.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load");
+  background-repeat: no-repeat;
+  width: 100px;
+  height: 100px;
+}
